@@ -1,0 +1,66 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10500\viewh11180\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3200\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Initial Condition 1\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural\partightenfactor0
+
+\b \cf0 Marine water: 3300 *
+\b0 \
+
+\b Marine air: 3306 *
+\b0 \
+Terrestrial air: 3116 *\
+Terrestrial water: 3161 *\
+\
+Initial Condition II \
+
+\b Marine water: 3303 *
+\b0 \
+
+\b Marine air: 3309 *
+\b0 \
+Terrestrial air: 3117 *\
+Terrestrial water: 3162 *\
+\
+Marine Initial Condition I cases with the diffusion coeffs swapped\
+
+\b Marine water with diffusion coeff of air: 3315  *
+\b0 \
+
+\b Marine air with diffusion coeff of water: 3312 * \'93marineairdswap\'94
+\b0 \
+\
+Marine Initial Condition II case with the flick, rest, and return times of hermit crabs \
+
+\b Marine water: 3321 *
+\b0 \
+
+\b Marine air: 3318 *
+\b0 \
+\
+Hermit Initial Condition I cases with the diffusion coeffs swapped\
+Hermit water with diffusion coeff of air: 3163 *\
+
+\b Hermit air with diffusion coeff of water: 3118 * "hermitairDswap"
+\b0 \
+\
+Hermit Initial Condition II case with the flick, rest, and return times of marine crabs \
+Hermit water: 3164 *\
+Hermit air: 3120 *	 \
+\
+\
+c_infinity values for the cases is set to be 0.1/ylength (the length of the domain in the y-direction) \
+**you should be able to check these numbers based on the ylength given in the initdata files  \
+marine water: 0.052328952493219\
+marine air: 0.038140257522164\
+hermit air:  0.529629241195228\
+hermit water: 0.513774451365372 \
+\
+%%%%\
+Since hairs were removed for the hermit crab case the hairs that are now there are just what was in the file was previously\
+i=[1:6,8,9,11,12,14,16]\
+but are now \
+i = 1:12}
