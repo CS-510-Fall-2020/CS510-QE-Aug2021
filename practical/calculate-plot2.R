@@ -185,10 +185,6 @@ marineairTswap<-findMeans(marineairTswap1.perstepdata$V1,marineairTswap1.perstep
 
 marinewaterTswap<-findMeans(marinewaterTswap1.perstepdata$V1,marinewaterTswap1.perstepdata$Cadj/marinewaterTswap.d,marinewaterTswap2.perstepdata$V1,marinewaterTswap2.perstepdata$Cadj/marinewaterTswap.d,marinewaterTswap3.perstepdata$V1,marinewaterTswap3.perstepdata$Cadj/marinewaterTswap.d)
 
-############### RESHAPE DATA FOR PLOTS #################
-
-plot1<-data.frame(marineair1$time,marineair1$mean,marineair1$SD,marinewater1$mean,marinewater1$SD,hermitair1$mean,hermitair1$SD,hermitwater1$mean,hermitwater1$SD)
-names(plot1)<-c("time","marineairMean","marineairSD","marinewaterMean","marinewaterSD","hermitairMean","hermitairSD","hermitwaterMean","hermitwaterSD")
 
 ############### PLOTS #################
 marine.flickx = c(0.0152)

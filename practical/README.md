@@ -2,6 +2,7 @@
 
 The two R scripts are meant to reproduce Fig. 5 in the publication Waldrop et al. 2016 (included as 20160615.pdf). 
  * data-entry.R: loads data from each replicate set (folders set1, set2, set3). This script should be run first.
+ * totalhairs_calculate_plot.R: loads some data and does some calculations. Only use the lines in this script that are relevant to the next script.
  * calculate-plot2.R: calculates the mean and confidence intervals of the graphs and creates graphs using the ggplot2 package. This script should be run second.
 
 The code works on my original machine (either the home or work location) to reproduce the figures. However, because of the hard-coding of locations, it will not work for you without edits. 
